@@ -5,7 +5,7 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="jumbotron"  style="background-color:white">
+			<div class="jumbotron"  style="background-color:yellow">
 				<table class="table table-responsive">
 				<tbody>     
                     <tr>
@@ -19,7 +19,7 @@
 					<tr>
 						<td>							
 
-						    <asp:DataList ID="DataList1" runat="server" DataKeyField="codproducto" DataSourceID="SqlDataSource1" RepeatColumns="3" OnItemCommand="DataList1_ItemCommand">
+			  <asp:DataList ID="DataList1" runat="server" DataKeyField="codproducto" DataSourceID="SqlDataSource1" RepeatColumns="3" OnItemCommand="DataList1_ItemCommand">
                                 <ItemTemplate>
                                     <asp:Image ID="Image1" width="140" height="120" runat="server" ImageUrl='<%# "~/Imagenes/"+Eval("imagen") %>' />
                                     <br />
