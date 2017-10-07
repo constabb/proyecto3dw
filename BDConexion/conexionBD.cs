@@ -25,6 +25,7 @@ namespace BDConexion
                 conexion.Open();
                 Console.WriteLine("Version del Servidor: {0}", conexion.ServerVersion);
                 Console.WriteLine("Estado: {0}", conexion.State);
+                
             }
             return conexion;
         }
